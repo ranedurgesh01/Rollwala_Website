@@ -1,0 +1,880 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar {
+    background-color: rgb(255, 200, 0);
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.nav-item {
+    font-family: 'Raleway', sans-serif;
+    padding: 0px 10px;
+}
+.bg {
+    background-image: url(img/bg.jpg);
+    height: 478px;
+    width: 1519px;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: -1;
+}
+.text {
+    text-align: left;
+    color: white;
+    padding: 30px;
+    background: transparent;
+    font-family: 'Berkshire Swash', serif;
+    padding-top: 150px;
+}
+.color-overlay {
+    font-size: 60px;
+    padding-bottom: 20px;
+}
+.btn {
+    background-color: rgb(255, 200, 0);
+    /* border: 1px solid; */
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.btn:hover {
+    background-color: yellow;
+}
+.branchstory {
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+.description {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    line-height: 29px;
+    padding: 0px 70px 0px 0px;
+    text-align: justify;
+}
+.pizza-img {
+    border-radius: 25px;
+    transition-duration: .3s;
+    transition-property: transform;
+    /* transition-duration: .3s;
+    transition-property: transform;
+    transition-timing-function: ease-out; */
+}
+.mr-img {
+    padding-bottom: 10px;
+    border-radius: 25px;
+}
+.roll-img {
+    border-radius: 25px;
+}
+.tree-img {
+    padding-bottom: 30px;
+}
+.our-team {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.heading-name {
+    text-align: center;
+    font-family: 'Berkshire Swash', serif;
+    font-size: 43px;
+    padding-bottom: 20px;
+}
+.team-info {
+    text-align: center;
+}
+.owner-name-patil {
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 20px;
+}
+.owner-post {
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+/* .team {
+    background-image: url(img/bgteam.jpg);
+    height: 620px;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.color-overlay {
+    font-family: 'Berkshire Swash', serif;
+    color: white;
+    text-align: left;
+    padding-top: 10px;
+}
+#member {
+    font-size: 43px;
+}
+.ceo {
+    padding-left: 90px;
+} */
+.speciality {
+    background-color: rgb(255, 250, 242);
+}
+.sp {
+    font-family: 'Berkshire Swash', serif;
+}
+.speciality {
+    padding-top: 90px;
+    padding-bottom: 50px;
+}
+#our-speciality {
+    font-size: 25px;
+}
+.sp-name {
+    font-family: 'Raleway', sans-serif;
+}
+.row i {
+    color:rgb(255, 200, 0);
+}
+#tested {
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    line-height: 60px;
+}
+.add {
+    text-align: center;
+    padding-top: 100px;
+}
+.shami {
+    line-height: 50px;
+}
+.pizza-bg {
+    background-image: url(img/pizza-bg1.jpg);
+    height: 420px;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h2 {
+    font-size: 50px;
+}
+.text-taste {
+    text-align: center;
+    color: white;
+    padding: 30px;
+    background: transparent;
+    font-family: 'Berkshire Swash', serif;
+    padding-top: 150px;
+    line-height: 80px;
+}
+.btn1 {
+    font-size: 15px;
+}
+.fiy i {
+    color: white;
+    background: black;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 15px;  
+}
+.fiy i:hover{
+    background-color: rgb(255, 200, 0);
+    color: black;
+}
+#taste {
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 20px;
+}
+.heading {
+    font-size: 15px;
+    padding-bottom: 12px;
+}
+#container1 {
+    padding: 50px 200px 50px 200px;
+}
+.name {
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    line-height: 15px;
+}
+.connect-heading {
+    font-size: 15px;
+}
+.form-label {
+    font-weight: 600;
+    font-size: 15px;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+.f-heading {
+    text-align: left;
+    font-size: 43px;
+}
+.inquiry-heading {
+    font-size: 64px;
+    line-height: 50px;
+}
+.line-img {
+    padding-top: 40px;
+    size: 50px;
+}
+.about-franchise {
+    padding: 50px 150px 50px 150px;
+    text-align: center;
+}
+.about-franchise h1 {
+    font-family: 'Berkshire Swash', serif;
+    font-size: 43px;
+    line-height: 70px;
+}
+.about-franchise p {
+    font-family: 'Raleway', sans-serif;
+    text-align: justify;
+}
+#fa-icon {
+    color: black;
+    font-size: 50px;
+    padding-bottom: 30px;
+}
+.card {
+    background-color:  rgb(255, 200, 0);
+}
+.card-body {
+    text-align: center;
+    padding: 50px;
+   
+}
+.card-body p {
+    font-size: 24px;
+    font-family: 'Raleway', sans-serif;
+    line-height: 20px;  
+}
+.card:hover {
+    background-color: yellow;
+}
+#about-franchise-con {
+    padding-bottom: 80px;
+}
+.menu {
+    display: flex;
+    font-family: 'Berkshire Swash', serif;
+    justify-content: space-between;
+    padding-top: 80px;
+}
+.menu-heading {
+    font-size: 28px;
+    border-style: solid;
+    border-width: 0px 2px 0px 0px;
+    border-color: #DDDDDD;
+    padding-right: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.much-more-heading {
+    font-family: 'Berkshire Swash', serif;
+    font-size: 28px;
+    text-align: center;
+    padding-top: 60px;
+}
+.veg-roll-container {
+    padding: 100px;
+}
+.veg-roll-img {
+    border-radius: 30px;
+}
+.menu-list-item  h1 {
+    font-family: 'Berkshire Swash', serif;
+    font-size: 43px;
+    line-height: 100px;
+}
+.menu-list-item p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+}
+.menu-list-item {
+    line-height: 60px;
+    padding-left: 120px;
+    text-align: center;
+}
+.btn-menu {
+    background-color: rgb(255, 200, 0);
+    /* border: 1px solid; */
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    color: black;
+}
+.btn-menu:hover {
+    background-color: yellow;
+    color: black;
+}
+.menu-order-btn {
+    text-align: center;
+    padding-bottom: 80px;
+}
+.menu-list-item-spl {
+    line-height: 50px;
+}
+.veg-roll-container-bg {
+    background-color: rgb(255, 250, 242);
+}
+.menu-list-item-cr {
+    line-height: 55px;
+}
+.BS-Heading {
+    font-family: 'Berkshire Swash', serif;
+    text-align: center;
+    font-size: 43px;
+}
+.burger-item { 
+    display: flex;
+}
+.burger-item p {
+    color: white;
+    text-align: center;
+}
+.burger-item-bg {
+    background-image: url(img/background.jpeg);
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    /* background-position: bottom; */
+    padding: 60px;
+    border-radius: 30px; 
+}
+.bs-name {
+    font-size: 24px;
+    padding-top: 30px;
+    padding-left: 90px;
+    font-family: 'Raleway', sans-serif;
+}
+.burger-item-line {
+    border-bottom: rgba(255, 255, 255, .2) solid 2px;
+}
+.bg-bs-pizza {
+    background-color: rgb(255, 250, 242);
+}
+.branches-heading {
+    font-family: 'Berkshire Swash', serif;   
+}
+.accordion-body {
+    line-height: 5px;
+    font-size: 15px;
+    text-align: left;
+}
+.list-of-our-branches {
+    text-align: center;
+    font-size: 43px;
+}
+.accordion {
+    width: 50%;
+    background: transparent;
+}
+.list-of-our-branches-name {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.accordion-collapse {
+    padding: 20px;
+}
+.happy-customer {
+    padding: 40px 150px 40px 150px;
+}
+.happy-customer-heading {
+    font-family: 'Berkshire Swash', serif; 
+    font-size: 43px;  
+    padding-top: 20px;
+}
+.happy-customer-description {
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+.happy-customer-description-samika {
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+}
+.tree-img {
+    padding-bottom: 50px;
+}
+.follow-us-on {
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+.follow-customer {
+    padding-top: 20px;
+}
+.contact-us-container {
+    padding: 60px 100px 60px 100px;
+}
+#call-icon {
+    color: black;
+    padding-right: 10px;
+}
+.contact-us-heading {
+    font-size: 24px;
+    /* font-family: 'Raleway', sans-serif; */
+}
+.contcat-us-descripton {
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+}
+.contact-us-button {
+    padding-left: 150px;
+    padding-top: 10px;  
+    display: flex;
+}
+.contact-us-button2 {
+    padding-left: 120px;
+}
+.loc-time-container {
+    padding: 50px 100px 50px 100px;
+}
+.time-card {
+    background-image: url(img/clock.jpeg);
+    background-size: cover;
+    text-align: center;
+    height: 100%;
+    padding-top: 350px;
+}
+.time-heading {
+    font-size: 43px;
+    font-family: 'Berkshire Swash', serif;
+    color: white;
+    line-height: 90px; 
+}
+.cafe-time {
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    line-height: 15px;
+}
+.inquiries-form {
+    background-color: white;
+    background-color: rgb(255, 250, 242);
+    padding: 50px;
+    padding-right: 70px;
+}
+.col-follow-on {
+    padding-left: 70px;
+    padding-top: 150px;
+}
+.meet-you {
+    font-size: 24px;
+    padding-bottom: 50px;
+}
+.follow-us-on {
+    font-size: 24px;
+}
+.btn-submit {
+    padding-top: 40px;
+}
+.for-online {
+    font-size: 24px;
+}
+.online-desc {
+    font-size: 15px;
+}
+.inquiry-heading-franchise {
+    padding-top: 30px;
+}
+.language-btn {
+    text-align: center;
+}
+.btn-warning {
+    border: none;
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+}
+.desc-info {
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+}
+.language-btn-english {
+    text-align: center;
+    background-color: rgb(255, 200, 0);
+    border: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 550px;
+    padding-right: 550px;
+    font-weight: 600;
+}
+.language-btn-english-div {
+    text-align: center;
+    font-size: 15px;   
+}
+strong {
+    font-size: 22px;
+    font-family: 'Raleway', sans-serif;
+}
+.elementor-widget-container p {
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+}
+.english-language-container {
+    border-style: solid;
+    padding: 50px 50px 50px 50px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+}
+.language-container{
+    padding-top: 50px;
+    padding-left: 160px;
+    padding-right: 160px;
+}
+.btn-move-next-step {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+.btn-move-next {
+    background-color: rgb(255, 200, 0);
+    border: none;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.btn-move-next:hover {
+    background-color: yellow;
+}
+.plans-info {
+    text-align: center;
+}
+.plans-info-desc {
+    font-size: 26px;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+}
+.plans-info-desc-read {
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+.plans-info {
+    padding-top: 90px;
+}
+.start-your-business-img {
+    text-align: center;
+    padding-top: 20px;
+}
+.card-step2 {
+    background-color: white;
+}
+.step2-container {
+    padding-top: 90px;
+    padding-left: 170px;
+    /* padding-right: 80px; */
+}
+.col-franchise-step2 {
+    /* border: 1px solid;
+    border-radius: 30px; */
+    padding-top: 35px;
+    padding-bottom: 35px;
+
+}
+.elementor-widget-container {
+    text-align: left;
+    padding-left: 25px;
+}
+.heading-title-automated {
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+}
+.heading-title-system {
+    font-size: 43px;
+    font-family: 'Berkshire Swash', serif;
+    padding-top: 20px;
+}
+.heading-title-req {
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 20px;
+}
+.elementor-icon-list-text {
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+}
+.heading-title-royalty {
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+.elementor-button-text {
+    color: black;
+}
+.elementor-button-content-wrapper {
+    background-color: rgb(255, 200, 0);
+    padding: 8px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 30px;
+    font-weight: 600;
+}
+.franchise-step2-container {
+    /* background-color: yellow; */
+    background-color: rgb(255, 250, 242);
+    width: 70%;
+    border: solid black 1px;
+    padding: 40px;
+    padding-left: 20px;
+    border-radius: 30px;
+}
+.elementor-button-wrapper {
+    padding-top: 20px;
+}
+.contact-us-info {
+    background-color: rgb(255, 250, 242);
+    padding: 20px 50px 20px 50px;
+    border-radius: 20px;
+    border: 1px solid;
+} 
+.contact-us-info-desc {
+    font-size: 24px;
+    font-family: 'Raleway', sans-serif;
+}
+.elementor-button-content-wrapper:hover {
+    background-color: yellow;
+}
+.franchise-benefits-name {
+    font-size: 43px;
+    font-family: 'Berkshire Swash', serif;
+}
+.franchise-benefits-desc {
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+}
+.franchise-benefits-header {
+    text-align: center;
+}
+.col-benefits {
+    border: 3px solid;
+    margin-left: 30px;
+    padding: 30px;
+}
+.franchise-benefits {
+    background-color: rgb(255, 250, 242);
+    padding: 40px 150px 40px 150px;
+}
+.icon-star i {
+    font-size: 48px;
+}
+.icon-star {
+    text-align: left;
+    padding-bottom: 20px;
+}
+.benefits-heading {
+    font-size: 24px;
+    font-family: 'Raleway', sans-serif;
+    text-align: left;
+    padding-bottom: 10px;
+}
+.elementor-icon-list-text {
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    line-height: 30px;
+}
+.elementor-icon-list-icon {
+    text-align: left;
+}
+.elementor-icon-list-items {
+    padding-left: 0;
+    text-align: left;
+}
+.col-benefits:hover {
+    background-color: rgba(255, 223, 0, 0.4);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+}
+.term-and-condition-head {
+    font-size: 43px;
+    font-family: 'Berkshire Swash', serif;
+    margin-bottom: 40px;
+}
+.term-and-condition-header {
+    text-align: center;
+    line-height: 10px;
+}
+.term-and-condition {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.term-and-condition-desc {
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+}
+.important-container {
+    text-align: center;
+    padding: 60px 100px 60px 100px;
+    line-height: 40px;
+}
+.elementor-desc p {
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 0;
+}
+.elementor-desc-heading u {
+    font-size: 24px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+.application-process-container{
+    text-align: center;
+    padding: 20px 150px 20px 150px;
+}
+.application-heading h1 {
+    font-size: 43px;
+    font-family: 'Berkshire Swash', serif;
+    padding-bottom: 90px;
+}
+.step-desc {
+    text-align: center;
+}
+.star-icon {
+    text-align: center;
+    font-size: 60px;
+    color:  blue;
+}
+.step-desc h1 {
+    font-size: 24px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    padding-top: 20px;
+}
+.step-desc p {
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+}
+.english-language-container-application-process {
+    /* border-style: solid; */
+    padding: 50px 50px 50px 50px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+    padding-left: 90px;
+    padding-right: 90px;
+}
+.btn-class-submit {
+    border: none;
+    color: black;
+}
+.btn-class-submit:hover {
+    color: black;
+}
+.form-label {
+    line-height: 30px;
+}
+.col-steps {
+    /* padding: 50px 50px 50px 50px; */
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+    /* padding-left: 90px;
+    padding-right: 90px; */
+    /* margin: 20px; */
+}
+.steps-container {
+    padding-top: 35px;
+}
+.col-steps-margin {
+    margin-left: 35px;
+}
+.col-steps:hover {
+    background-color: rgb(255, 200, 0);
+}
+.contact-us-any-problem {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.div-any-problem p {
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;
+}
+.contact-us-btn {
+    padding: 10px;
+}
+.contact-us-btn1 {
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.contact-us-btn1:hover {
+    border-radius: 30px;
+    background-color: rgb(255, 200, 0);
+}
+.dropdown-item {
+    font-family: 'Raleway', sans-serif;
+}
+.dropdown-item:hover {
+    background-color: rgb(255, 200, 0);
+}
+.menu-title {
+    text-align: center;
+    font-family: 'Berkshire Swash', serif;
+    padding-top: 35px;
+}
+.btn-all {
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    background-color: rgb(255, 200, 0);
+    font-size: 18px;
+}
+.btn-all:hover {
+    background-color: yellow;
+}
+.pizza-heading {
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 20px;
+}
+.pizza-desc {
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+}
+.veg-pizza-name {
+    padding-bottom: 20px;
+}
+.col-pizza {
+    border: 1px solid;
+    margin: 5px;
+}
+.pizza-order-con {
+    padding-top: 50px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.pizza-order-con1 {
+    padding-bottom: 50px;
+}
+.row-pizza-spl {
+    margin-right: 20px;
+}
+.modal-header {
+    background-color: rgb(255, 200, 0);
+}
+
