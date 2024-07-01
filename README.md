@@ -1,6 +1,6 @@
 # Mr.Rollwala_Website
  Mr. Rollwala Website
-# ScreenShot
+# ScreenShots
 Home Page :-
 ![Home Page](https://github.com/ranedurgesh01/Rollwala_Website/assets/136632738/2609c3a8-5c52-4e08-99f6-7964e928683d)
 
